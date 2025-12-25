@@ -32,7 +32,7 @@ df['Language'] = le.fit_transform(df['Language'])
 df['Customer_Segment'] = le.fit_transform(df['Customer_Segment'])
 
 X = df[['Company', 'Campaign_Type', 'Duration (in days)', 'Channel_Used', 
-        'Conversion_Rate', 'Acquisition_Cost', 'ROI', 'Location', 'Language', 
+        'Conversion_Rate', 'Acquisition_Cost', 'Location', 'Language', 
         'Clicks', 'Impressions', 'Engagement_Score', 'Customer_Segment']]
 y = df['ROI']
 
